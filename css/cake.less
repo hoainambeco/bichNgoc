@@ -1,16 +1,4 @@
-
-
-//////////////////////////////////////////// var
-
 @D:300px; // Control diameter
-
-///////////////////////////////////////////
-
-
-
-/* ============================================== POSITION
-*/
-
 .cake{
   position:absolute;
   display:none;
@@ -19,10 +7,6 @@
   margin-left:-(@D/2);
   width:@D; height:@D;
 }
-
-/* ============================================== BASE
-*/
-
 .cake:after{
   background:rgba(255,255,255,1);
   border-radius:@D;
@@ -35,10 +19,6 @@
 .cake:before{
   
 }
-
-/* ============================================== Candle
-*/
-
 .velas{
   background:rgba(255,255,255,1);
   border-radius:100%;
@@ -64,9 +44,6 @@
 .velas:before{
   top:45%; left:0;
 }
-
-/* ============================================== Fire
-*/
 
 .fuego{
   display:none;
@@ -120,10 +97,6 @@
   -ms-animation:fuego 0.2s infinite;
   animation:fuego 0.2s infinite;
 }
-
-/* ============================================== Animation Fire
-*/
-
 @-webkit-keyframes fuego{
   0%{
     background:rgba(254,248,97,0.5);
@@ -196,9 +169,6 @@
   }
 }
 
-/* ============================================== Frosting
-*/
-
 .cobertura{
   background:rgba(236,231,227,1);
   border-radius:@D/2;
@@ -227,9 +197,6 @@
   top:@D/10; right:@D/11;
 }
 
-/* ============================================== BIZCOCHO
-*/
-
 .bizcocho{
   background:rgba(109,56,38,1);
   position:absolute;
@@ -253,9 +220,6 @@
 .bizcocho:before{
   top:60%; left:0;
 }
-
-/* ============================================== TEXT
-*/
 
 h1,
 p{

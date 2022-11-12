@@ -198,15 +198,9 @@ $('document').ready(function(){
 			}			
 
 		});
-			// body...
 		}
 		
 		msgLoop(0);
 		
 	});
 });
-
-
-
-
-//alert('hello');
